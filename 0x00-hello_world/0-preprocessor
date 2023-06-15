@@ -1,3 +1,2 @@
 #!/bin/bas
-gcc -E $CFILE > c:wq
-
+gcc -E $CFILE > c
