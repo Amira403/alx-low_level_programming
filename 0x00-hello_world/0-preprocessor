@@ -1,2 +1,3 @@
-#!/bin/bash
-export $CFILE=main.c > c
+#!/bin/bas
+gcc -E $CFILE > c:wq
+
