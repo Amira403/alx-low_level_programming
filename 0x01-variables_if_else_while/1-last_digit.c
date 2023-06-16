@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/
+/**
  * main - This is a description
  * Return: 0
- /
+ */
 int main(void)
 {
         int n;
