@@ -12,7 +12,7 @@ int main(void)
 	{
 	putchar (x + '0');
 	}
-	for (c  = 97 ; c > 103 ; c++)
+	for (c  = 97 ; c < 103 ; c++)
 	{
 	putchar(c);
 	}
