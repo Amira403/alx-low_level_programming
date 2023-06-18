@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - my function
- *Rreturn: 0
+ * main - This is a description
+ * Return: 0
  */
 int main(void)
 {
