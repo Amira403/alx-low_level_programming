@@ -6,8 +6,7 @@
 int main(void)
 {
 	int d1, d2;
-
-	for (d1 =0; d1 <= 98; d1++)
+	for (d1 = 0; d1 <= 98; d1++)
 	{
 	for (d2 = d1 + 1; d2 <= 99; d2++)
 	{
@@ -24,5 +23,5 @@ int main(void)
 	}
 	}
 	putchar('\n');
-	return (0);
+	return 0;
 }
