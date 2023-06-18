@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
  * main - my function
- *Rreturn: 0 
+ *Rreturn: 0
  */
 int main(void)
 {
-	int d1,d2;
+	int d1 , d2;
 
 	for (d1 = 0 ; d1 < 10 ; d1++)
 	{
@@ -13,12 +13,11 @@ int main(void)
 	{
 	putchar(d1 + '0');
 	putchar(d2 + '0');
-	if (d1 == 8 && d2 == 9)
+	if (d1 != 8 && d2 != 9)
 	{
-	return (0);
-	}
 	putchar(',');
 	putchar(' ');
+	}
 	}
 	putchar('\n');
 	}
