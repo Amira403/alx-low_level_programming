@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int d1 , d2;
+	int d1, d2;
 
 	for (d1 = 0 ; d1 < 10 ; d1++)
 	{
@@ -20,6 +20,6 @@ int main(void)
 	}
 	}
 	putchar('\n');
-	}
 	return (0);
+}
 }
