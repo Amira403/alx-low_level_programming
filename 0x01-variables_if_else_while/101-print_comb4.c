@@ -18,12 +18,11 @@ int main(void)
 	putchar(d3 + '0');
 	if (d1 == 7 && d2 == 8 && d3 == 9)
 	{
-	return (0); 
-	}
 	putchar(',');
-	putchar(' ');
+	putchar(' ');	       
 	}
 	}
 	}
+	putchar('\n');
 	return (0);
 }
