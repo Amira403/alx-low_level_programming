@@ -4,9 +4,10 @@
  */
 void print_alphabet(void)
 {
-	for (int x = 0 ; x < 10 ; x++)
+	int x, c;
+	for (x = 0 ; x < 10 ; x++)
 	{
-	for (int c = 97 ; c < 123 ; c++)
+	for (c = 97 ; c < 123 ; c++)
 	{
 	putchar(c);
 	}
