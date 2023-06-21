@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
  /**
- *int _islower(int c)- checks if a character is lowercase
+ *function __islower- checks if a character is lowercase
  * Return: 1 if c is lowercase, 0 otherwise
  */
 int _islower(int c)
