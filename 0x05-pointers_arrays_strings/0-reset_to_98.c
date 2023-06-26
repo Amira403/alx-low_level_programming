@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * main - function that takes a pointer to an int as paramet * er and upd * ates the value it points to to 98
