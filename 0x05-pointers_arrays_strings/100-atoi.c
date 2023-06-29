@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _atoi -  convert a string to an integer
  * @s: the pointer to convert
@@ -29,5 +28,8 @@ int _atoi(char *s)
 	break;
 	}
 	c++;
-
+	}
+	n *= m;
+	return (n);
+}
 
