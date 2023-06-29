@@ -1,27 +1,28 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * main - check the code
+ * _strcat - concatenates two strings
+ * @dest: input value
+ * @src: input value
  *
- * Return: Always 0.
+ * Return: void
  */
-int main(void)
-
+char *_strcat(char *dest, char *src)
 {
-	char d[98] = "Hello ";
-	char a[] = "World!\n";
-	char *p;
+	int i;
+	int j;
 
-	printf("%s\n", d);
-	printf("%s", a);
-	p = _strncat(d, a, 1);
-	printf("%s\n", d);
-	printf("%s", a);
-	printf("%s\n", p);
-	p = _strncat(d, a, 1024);
-	printf("%s", d);
-	printf("%s", a);
-	printf("%s", p);
-	return (0);
+	i = 0;
+	while (dest[i] != '\0')
+	{
+	i++;
+	}
+	j = 0;
+	while (src[j] != '\0')
+	{
+	dest[i] = src[j];
+	i++;
+	j++;
+ 	}	
+ 	dest[i] = '\0';
+	return (dest);
 }
-
