@@ -8,12 +8,16 @@
 int main(void)
 
 {
-	char d[98] = "hello ";
-	char a[] = "world!\n";
+	char d[98] = "Hello ";
+	char a[] = "World!\n";
 	char *p;
 
 	printf("%s\n", d);
 	printf("%s", a);
+	p = _strncat(d, a, 1);
+	printf("%s\n", d);
+	printf("%s", a);
+	printf("%s\n", p);
 	p = _strncat(d, a, 1024);
 	printf("%s", d);
 	printf("%s", a);
