@@ -1,19 +1,14 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - how to change the value of a variable from outside the function
- * it is declared in, using a pointer.
- * @*n:pointer 
- * @p:int
- * Return: Always 0.
+ * reset_to_98 -  takes a pointer to an int as parameter and updates the value it points to to 98
+ * @n: an int input  pointer 
+ *
+ * Return: noting
  */
 void reset_to_98(int *n)
 {
-	int p;
-	p = 402;
-	n = &p;
+
 	*n = 98;
 
-	putchar( p + '0');
-	return (0);
 }
