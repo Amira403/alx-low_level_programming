@@ -5,13 +5,13 @@
  * @s: the str to print 
  * Return: void
  */
-void rev_string(char *s)
+void print_rev(char *s)
 {
 	int c = 0;
 
 	while (s[c] != '\0')
 	{
-		c++;
+	c++;
 	}
 
 	for (c -= 1; c >= 0; c--)
