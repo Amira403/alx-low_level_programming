@@ -1,20 +1,26 @@
+7-leet.c
+
 #include "main.h"
 /**
- * string_toupper - change all lowercase to uppercase
- * @n: pointer
- *
- * Return: n
+ * leet - encode into 1337speak
+ * @n: input value
+ * Return: n value
  */
-char *string_toupper(char *n)
+char *leet(char *n)
 {
-	int i;
+	int i, j;
+	char s1[] = "aAeEoOtTlL";
+	char s2[] = "4433007711";
 
-	i = 0;
-	while (n[i] != '\0')
+	for (i = 0; n[i] != '\0'; i++)
 	{
-	if (n[i] >= 'a' && n[i] <= 'z')
-	n[i] = n[i] - 32;
-	i++;
+	for (j = 0; j < 10; j++)
+	{
+	if (n[i] == s1[j])
+	{
+	n[i] = s2[j];
+	}
+	}
 	}
 	return (n);
 }
