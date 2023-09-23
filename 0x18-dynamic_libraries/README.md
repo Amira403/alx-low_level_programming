@@ -1,1 +1,0 @@
-ALX SE Dynamic libraries
